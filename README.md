@@ -8,7 +8,7 @@
 **Duration**: 4 Weeks  
 **Mentor**: Neela Santosh  
 
-Welcome to **COVID-19 India Tracker**, a Power BI dashboard created during my internship at Codtech IT Solutions. This project presents key metrics and state-wise trends related to the COVID-19 pandemic in India through clear and interactive visuals.
+Welcome to **COVID-19 India Tracker**, a Power BI dashboard created during my internship at Codtech IT Solutions. This dashboard provides a state-wise breakdown of India’s COVID-19 data with key metrics and interactive visuals to explore trends in real-time.
 
 ---
 
@@ -16,11 +16,11 @@ Welcome to **COVID-19 India Tracker**, a Power BI dashboard created during my in
 
 The goal of this dashboard is to:
 
-- Track India's COVID-19 impact using real-time case data.  
-- Present total, active, and discharged cases along with death count.  
-- Visualize the top affected states/UTs across India.  
-- Provide comparative insights through interactive visuals and filters.  
-- Help users better understand the scale and trend of the pandemic.
+- Monitor India’s COVID-19 cases including active, discharged, and death counts.  
+- Visualize top affected states and union territories.  
+- Present state-wise totals and death metrics.  
+- Help stakeholders analyze pandemic trends through interactive visuals.  
+- Promote data-driven awareness and response planning.
 
 ---
 
@@ -28,20 +28,19 @@ The goal of this dashboard is to:
 
 ### 🔹 Key Metrics
 
-- **Total Cases**: 45M  
+- **Total Cases**: 43M  
 - **Active Cases**: 2K  
-- **Discharged**: 44M  
-- **Deaths**: 532K  
+- **Discharged**: 42M  
+- **Deaths**: 517K  
 
 ### 🔹 Visual Insights
 
-- **Top 6 COVID Cases by State/UTs**: Tamil Nadu, Uttar Pradesh, West Bengal, Telangana, Uttarakhand  
-- **State-Wise Breakdown**: Total cases and deaths  
-- **Filters for State/UT Selection**  
-- **Metric Cards** for quick summary  
-- *(One visual currently not displayed due to source error)*
+- **Top 6 COVID-19 Cases by State/UTs**: Tamil Nadu, Uttar Pradesh, West Bengal, Telangana, Uttarakhand  
+- **State-wise Total Cases and Deaths**  
+- **Interactive Filters**: Multi-select for `State_UTs`  
+- **KPI Cards**: For quick metric snapshots  
 
-📍 *Visuals designed with dynamic slicers and KPI cards.*
+📍 *Interactive slicers and visual filters enhance data exploration.*
 
 ---
 
@@ -49,10 +48,10 @@ The goal of this dashboard is to:
 
 | Tool             | Role                                     |
 |------------------|------------------------------------------|
-| Power BI         | Dashboard creation & visual modeling     |
-| Microsoft Excel  | Data formatting and import               |
-| Power Query      | Data transformation and filtering        |
-| DAX              | KPIs and calculated measures             |
+| Power BI         | Dashboard development & KPIs             |
+| Microsoft Excel  | Source data handling                     |
+| Power Query      | Data shaping & transformation            |
+| DAX              | Metric calculations and cards            |
 
 ---
 
@@ -64,16 +63,18 @@ covid19-india-dashboard/
 │ └── CovidIndiaDashboard.pbix # Power BI dashboard file
 │
 ├── Reports/
-│ └── Covid-19.pdf # Exported PDF of the dashboard
+│ └── Covid-19.pdf # Final exported PDF
 │
 ├── Assets/
 │ └── dashboard_preview.png # Dashboard screenshot (optional)
 │
 ├── Data/
-│ └── covid_data.xlsx # Source Excel data (if included)
+│ └── covid_data.xlsx # Source dataset (if available)
 │
 └── README.md # Project documentation
 
 ## 📁 Output
+
+![Image](https://github.com/user-attachments/assets/f107d0c6-0a2b-458c-9769-e57d8c5f50a8)
 
 
